@@ -1,0 +1,91 @@
+h1 {
+<!--background-color: #2d6360;-->
+margin: 2em 0 0 0;
+    color: #2e484c;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.8em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+h2 {
+background-color: #2d6360;
+margin: 2em 0 0 0;
+    color: #fffff;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.0em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+main h2 {
+background-color: #2d6360;
+
+margin: 2em 0 0 0;
+    color: #FFFFFF;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 1.8em;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+header {
+display: flex;
+flex-direction: row;
+background-color: #2d6360;
+padding: 2px 0 2px 2px;
+}
+
+nav, main {
+background-color: #E5EAF5;
+}
+
+footer {
+color: white;
+background-color: #494D5F;
+}
+
+nav, main, footer {
+padding: 0 5px;
+}
+
+header, nav, main {
+border: 1px solid #8458B3;
+}
+
+section {
+padding-bottom: 10px;
+}
+
+p {
+margin: 0 5px;
+padding: 0 5px;
+}
+<!--table, th,td {
+  border: 1px solid;
+}-->
+table {
+border-collapse: collapse; /* merge cell borders */
+width: 100%; /* make the table fill its container */
+}
+
+th, td {
+border: 1px solid #ddd; /* add borders to cells */
+padding: 8px; /* add padding to cells */
+text-align: left; /* align text to the left */
+}
+
+th {
+background-color: #f2f2f2; /* add a background color to the header row */
+font-weight: bold; /* make the header text bold */
+}
+
+.flex-container {
+display: flex;
+flex-direction: row;
+align-items:center;
+flex-flow: row wrap;
+gap: 1em;
+}

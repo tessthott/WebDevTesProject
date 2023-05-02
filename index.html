@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Welcome</title>
+    <meta name="Description" content="HTML lessons" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+   <!--<style>
+       body{
+        padding : 0;
+        margin 0;
+        font-family Arial;
+        }
+    </style>-->
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+<img id ="profilepic" src="./images/tess_image.jpg" alt="Tessa Profile" width="200" height="200">
+<h1 id="heading1">Tessa George</h1>
+<nav>
+<h2 id ="extlinks">External Links</h2>
+    <ul>
+        <li> <a href="https://www.linkedin.com/in/tessa-george-b041019a/" >LinkedIn</a></li>
+        <li> <a href="https://github.com/tessthott" >GitHub</a></li>
+    </ul>
+
+ <h2 id="intlinks">Internal Links</h2>
+    <ul>
+        <li> <a href="#overview">Overview</a></li>
+        <li> <a href="#experience">Work Experience</a></li>
+        <li> <a href="#education">Education</a></li>
+        <li> <a href="#skills">Skills</a></li>
+    </ul>
+</nav>
+<main class=".flex-container">
+    <section>
+        <h2 id="overview">Overview</h2>
+
+        <p>
+            I am a computer science graduate with 5 years of experience in software development. <br>
+            Hands on expertise in java web application development,ERP maintenance and support.<br>
+            I worked as team on a few commercial projects.
+            My previous role was Data Support Engineer.<br>
+            Currently I am working as Java test automation trainee at Sparta Global.
+
+        </p>
+    </section>
+    <section>
+       <h2 id="experience">Work Experience</h2>
+        <table>
+            <caption>Employment History</caption> <!-- Optional -->
+            <thead> <!-- Optional -->
+            <tr>
+                <th>Position</th>
+                <th>Company</th>
+                <th>From</th>
+                <th>To</th>
+            </tr>
+            </thead>
+            <tbody> <!-- Optional (0 or more)-->
+            <tr> <!-- 1 or more (can replace tbody) -->
+                <td>Sparta Test Automation Trainee</td>
+                <td>Sparta Global</td>
+                <td>April 2023</td>
+                <td>Present</td>
+            </tr>
+            <tr>
+                <td> Data Support Engineer</td>
+                <td>Abzero Technologies</td>
+                <td>March 2022</td>
+                <td>July 2022</td>
+            </tr>
+            <tr>
+                <td>System Developer</td>
+                <td>Optoma Corporation ltd</td>
+                <td>Nov 2015</td>
+                <td>Dec 2017</td>
+            </tr>
+            <tr>
+                <td>Software Engineer</td>
+                <td>BEO Software</td>
+                <td>May 2012</td>
+                <td>May 2014</td>
+            </tr>
+            </tbody>
+        </table>
+   </section>
+    <section>
+        <h2 id="education">Education</h2>
+        <table>
+            <caption>Education Details</caption> <!-- Optional -->
+            <thead> <!-- Optional -->
+            <tr>
+                <th>Qualification</th>
+                <th>Institution</th>
+                <th>Completed</th>
+            </tr>
+            </thead>
+            <tbody> <!-- Optional (0 or more)-->
+            <tr> <!-- 1 or more (can replace tbody) -->
+                <td>Bachelor of Computer Science Engineering</td>
+                <td>Calicut University</td>
+                <td>June 2011</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+    <section>
+        <h2 id ="skills">Skills</h2>
+        <ol>
+            <li>ISTQB foundation level-certified tester</li>
+          <li>Java</li>
+            <li>JSP</li>
+            <li>EJB</li>
+        </ol>
+    </section>
+   <section id="news-search">
+       <h2>News Search</h2>
+       <form method="get" action="https://www.bbc.co.uk/search">
+           <label for="search-term">Search term: </label>
+           <input type="text" id ="search-term" name="q" value="Hatfield">
+
+           <button type="submit">Search</button>
+       </form>
+   </section>
+</main>
+<footer>
+    <small>Copyright &#169; Sparta Global 2023 <cite>by Philip Windridge</cite></small>
+</footer>
+</body>
+</html>
+
+
+
